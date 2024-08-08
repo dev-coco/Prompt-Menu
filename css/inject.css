@@ -1,0 +1,203 @@
+.prompt-menu-sidebar {
+  position: fixed;
+  top: 50%;
+  right: -320px;
+  transform: translateY(-50%);
+  width: 320px;
+  height: 85vh;
+  background-color: #ffffff;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 0 0 10px;
+}
+
+.prompt-menu-sidebar * {
+  font-family: 'Arial', sans-serif;
+}
+
+.prompt-menu-sidebar.prompt-menu-open {
+  right: 0;
+}
+
+.prompt-menu-toggle-btn {
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.prompt-menu-toggle-btn:hover {
+  background-color: #3a7bca;
+}
+
+.prompt-menu-menu-items {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.prompt-menu-menu-item {
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.prompt-menu-menu-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prompt-menu-menu-item-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.prompt-menu-edit-btn,
+.prompt-menu-delete-btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 8px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 8px;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.prompt-menu-btn-box {
+  min-width: 111px;
+}
+
+.prompt-menu-edit-btn:hover,
+.prompt-menu-delete-btn:hover {
+  background-color: #3a7bca;
+}
+
+.prompt-menu-delete-btn {
+  background-color: #e74c3c;
+}
+
+.prompt-menu-delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.prompt-menu-bottom-buttons {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prompt-menu-edit-mode-btn,
+.prompt-menu-add-btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 45%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.prompt-menu-edit-mode-btn:hover,
+.prompt-menu-add-btn:hover {
+  background-color: #3a7bca;
+}
+
+.prompt-menu-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prompt-menu-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 50%;
+  max-width: 500px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.prompt-menu-close {
+  color: #aaa;
+  align-self: flex-end;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.prompt-menu-close:hover,
+.prompt-menu-close:focus {
+  color: #333;
+}
+
+.prompt-menu-input[type="text"],
+.prompt-menu-textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.prompt-menu-textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.prompt-menu-confirm-btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 6px;
+  float: right;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.prompt-menu-confirm-btn:hover {
+  background-color: #3a7bca;
+}

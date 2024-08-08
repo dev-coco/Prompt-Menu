@@ -1,0 +1,29 @@
+{
+  "extDesc": {
+    "message": "Prompt sidebar menu. Customizable preset prompts."
+  },
+  "editor": {
+    "message": "Editor"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "title": {
+    "message": "Title"
+  },
+  "content": {
+    "message": "Content"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "delete": {
+    "message": "Del"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "tutorial": {
+    "message": "https://dev-coco.github.io/post/Prompt-Menu-EN/"
+  }
+}

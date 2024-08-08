@@ -1,0 +1,29 @@
+{
+  "extDesc": {
+    "message": "提示语侧边栏菜单，可自定义预设提示语。"
+  },
+  "editor": {
+    "message": "编辑"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "title": {
+    "message": "标题"
+  },
+  "content": {
+    "message": "内容"
+  },
+  "confirm": {
+    "message": "确认"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "tutorial": {
+    "message": "https://dev-coco.github.io/post/Prompt-Menu/"
+  }
+}
