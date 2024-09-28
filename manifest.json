@@ -28,8 +28,5 @@
     ],
     "js": ["js/Sortable.min.js", "js/inject.js"],
     "css": ["css/inject.css"]
-  }],
-"content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
-  }
+  }]
 }
