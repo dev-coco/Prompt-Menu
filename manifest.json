@@ -3,7 +3,7 @@
   "name": "Prompt Menu",
   "description": "__MSG_extDesc__",
   "default_locale": "en",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Raz1ner",
   "action": {
     "default_icon": "icon.png"
@@ -28,5 +28,8 @@
     ],
     "js": ["js/Sortable.min.js", "js/inject.js"],
     "css": ["css/inject.css"]
-  }]
+  }],
+"content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
 }
